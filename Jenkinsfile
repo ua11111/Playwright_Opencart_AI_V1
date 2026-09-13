@@ -17,7 +17,7 @@ Pipeline Stages:
 pipeline {
   agent any
   tools {
-    git 'Default'
+    git 'Git'
   }
   options { timestamps() }
   parameters {
