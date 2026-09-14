@@ -18,7 +18,7 @@
 import { test, expect } from '../../fixtures/pageFixtures';
 import { RandomDataUtil } from '../../utils/dataGenerator';
 
-test('User Registration Flow - Complete registration successfully @master @sanity @web', async ({
+test('User Registration Flow - Complete registration successfully @master @sanity @web @e2e', async ({
     homePage,
     registerPage,
     page,
